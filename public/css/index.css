@@ -8,7 +8,7 @@
 }
 
 h1 {
-    color:blue;
+    background:blue;
 }
 
 
@@ -43,11 +43,12 @@ ul > li {
     background: red;
 }
 
- p ~ p {
+ .susid ~ p {
     background: blue;
+    color:white
 }
 
-.salo {
+.salo{
     background:yellow;
 }
 #bread {
@@ -94,14 +95,14 @@ ul > li {
  }
 
  .lesson-three-task-three [value="3"] {
-    color:red;
+    background:red;
  }
 
  .lesson-three-task-four  [class="primary action"] {
-    color:blue;
+    background:blue;
  }
  .lesson-three-task-five  [class|="secondary"] {
-    color:blue;
+    background:red;
  }
  .lesson-three-task-six  [class^="b"] {
     color:green;
@@ -119,9 +120,9 @@ ul > li {
     color:red;
  }
 
- .lesson-three-task-ten {
+ .lesson-three-task-ten::first-line {
     background:yellow;
- }
+  }
 
  .lesson-three-task-eleven input::placeholder {
     background: red;
