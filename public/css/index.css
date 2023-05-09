@@ -128,9 +128,9 @@ ul > li {
     background: red;
  }
 
- .lesson-three-task-twelve ::before {
+ .lesson-three-task-twelve li::before {
     content:"➤";
  }
- .lesson-three-task-thirteen ::after {
+ .lesson-three-task-thirteen li::after {
     content:"➤";
  }
